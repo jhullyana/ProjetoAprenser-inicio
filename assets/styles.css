@@ -1,0 +1,195 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: #FED001;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    /* font: 400 62.5% Playfair Display", serif*/
+}
+
+p,
+a {
+    font-size: 1.6rem;
+}
+
+h1 {
+    font-size: 4.8rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.btn {
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    font-size: 1.8rem;
+    text-decoration: none;
+    padding: 1.6rem 4.6rem;
+    display: inline-block;
+    color: inherit;
+}
+
+.wrapperContainer {
+    padding-top: 1px;/*Para um container ficar junto com o outro*/
+}
+
+.wrapperContainer_dark {
+    background-color: #2A2A2A;
+    color: #fafafa;
+}
+
+.wrapperContainer-light {
+    background-color: #fafafa;
+}
+
+.wrapperContainer-dark2 {
+    background-color: #003464;
+    color: #fafafa;
+}
+
+.wrapperContainer_fixed {
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.Container {
+    max-width: 127.6rem;
+    margin: auto;
+}
+
+.section_title{
+    padding: 3.5rem 0;
+    text-align: center;
+}
+
+.section_btn{
+    margin: 4.5rem 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2A2A2A;
+    align-items: center;/* para deixar centralizado*/
+    padding: 2rem 0;
+}
+
+.header_nav li {
+    display: inline-block;/* deixa em uma linha*/
+}
+
+.header_nav a {
+    color: #FED001;
+    padding: .75em 1.15em /*segunda parte é a medida horizontal*/;
+    border: solid 1px;
+    text-decoration: none;
+    
+}
+
+.header_nav a:hover {
+    background-color: black;
+}
+
+.header_nav ul {
+    display: flex;
+    gap: .6rem;
+    list-style-type: none;
+}
+
+.wrapperContainerHero {
+    background-image: linear-gradient(white,yellow);
+}
+
+.containerHeroBanner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20rem;
+}
+
+.hero_title {
+    margin-bottom: 4rem;
+}
+
+.cursos {
+    text-align: center;
+}
+
+.cursos_container {
+    display: flex;
+    text-align: left;
+    gap: 2rem;
+}
+
+.curso_card {
+    
+    flex: 1;/*Deixa todos do mesmo tamanho*/
+}
+
+.curso_card img {
+    display: block;/*elemnto de linha*/
+    width: 100%;
+}
+
+.curso_card h3 {
+    font-size: 2.6rem;
+}
+
+.curso_card p {
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+.cursos_card_content {
+    padding: 1rem;
+    border: 1px solid #aaa8a8;
+    border-radius: 0 8px 8px;
+    border-top: transparent;
+    overflow: hidden;/*A parte da imagem que fica de fora do border esconde*/
+}
+
+.escola {
+    display: flex; /*Já vai para o canto o texto*/ 
+    gap: 3rem;
+    padding-top: 2rem;
+}
+
+.escola_title {
+    font-size: 3.2rem;
+    margin-top: 7rem;
+}
+
+.escola p {
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+.contatos_adress {
+    text-align: right;
+    font: 400 1.8rem "Inter", sans-serif;
+    margin: 3.5rem 0;
+}
+
+.footer {
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 4.5rem;
+}
